@@ -1,0 +1,88 @@
+body {
+    background: rgb(98, 170, 103);
+    background: linear-gradient(0deg, rgba(98, 170, 103, 1) 29%, rgba(98, 170, 103, 1) 60%, rgba(224, 220, 212, 0.8883928571428571) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cambiar a min-height para asegurar que el degradado se extienda hasta el final */
+    flex-direction: column;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px; /* Aumentar el ancho del formulario */
+    max-width: 90%; /* Establecer un ancho máximo para asegurar que no sea demasiado ancho en pantallas grandes */
+    padding: 2rem;
+    background-color: #80af83;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+h2 {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label {
+    color: aliceblue;
+    font-size: 16px; /* Reducir el tamaño de la fuente para las etiquetas */
+    font-weight: 300;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button{
+    float: right;
+    background-color: #306D4A;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: #80af83;
+}
+a {
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.error {
+    background-color: rgb(206, 59, 59);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: calc(100% - 40px);
+}
+
